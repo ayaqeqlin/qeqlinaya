@@ -1,0 +1,79 @@
+<html>
+
+
+
+<head>
+<link rel="stylesheet" href="jeuxnombre.css" type="text/css">
+</head>
+
+<body>
+<h1 id="A">jouons ensemble!</h1>
+<div class="contenu">
+<h3>jouons ensemble</h3>
+<div class="rouge">
+<img src="jeux4.jpg" width="200" height="200">
+<h4>le nombre en "red" est :</h4>
+<form>
+<input type="checkbox" id="r">6six
+<input type="checkbox" id="v">1-one
+<input type="checkbox" id="b">3-three
+</form>
+
+<script language="javascript">
+function clr()
+{ var c='';
+if(document.getElementById('r').checked==true){c=' bravooo!!';}
+if(document.getElementById('v').checked==true){c='oups non ressaaye ';}
+if(document.getElementById('b').checked==true){c='oups non ressaaye';}
+document.getElementById('bbc').innerHTML=c;
+}
+</script>
+<input type="button" value="check" onclick="clr()">
+<p id="bbc"></p></div>
+
+<div class="vert" > 
+<img src="jeux5.jpg" width="200" height="200">
+<h4> le nombre en bleu est</h4>
+<form>
+<input type="checkbox" id="v1">5
+<input type="checkbox" id="b1">7
+<input type="checkbox" id="bl1">2
+</form>
+<script language="javascript">
+function clr2()
+{ var b='';
+if(document.getElementById('bl1').checked==true){b=' bravooo!!';}
+if(document.getElementById('v1').checked==true){b='oups non ressaaye ';}
+if(document.getElementById('b1').checked==true){b='oups non ressaaye';}
+document.getElementById('gg').innerHTML=b;
+}
+</script>
+<input type="button" value="check" onclick="clr2()">
+<p id="gg"></p>
+</div>
+
+<div class="blue" > 
+<img src="ballons.jpg" width="200" height="200">
+<h4>quel est le nombre des ballons rouge</h4>
+<form>
+<input type="checkbox" id="j1">2-two
+<input type="checkbox" id="b2">3-three
+<input type="checkbox" id="bl2">4-four
+</form>
+<script language="javascript">
+function clr3()
+{ var a='';
+if(document.getElementById('j1').checked==true){b=' bravooo!!';}
+if(document.getElementById('b2').checked==true){b='oups non ressaaye ';}
+if(document.getElementById('bl2').checked==true){b='oups non ressaaye';}
+document.getElementById('cc').innerHTML=b;
+}
+</script>
+<input type="button" value="check" onclick="clr3()">
+<p id="cc"></p>
+</div><center><h3>Excellent!!</h3></center>
+</div>
+clickez ici
+<a href="file:///D:/documents/imag_1/ma%20page.html">page principale</a>
+
+</html>

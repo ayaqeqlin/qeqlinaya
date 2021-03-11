@@ -1,0 +1,30 @@
+body{font-family: arial; 
+    background-color:#d2767e; color:white;
+	border: white solid  1px;}
+	#A{width: 75px height:50px;
+  position: center;
+   border : white solid 1px;
+   margin: 10px 400px 10px 400px;
+   background-color:
+#dc842c;
+   border-radius:5px; color:#bfc1c2;
+    text-align:center;
+	}
+		
+.contenu{ padding:10px 5px ;
+  border: solid #FFDBDB 1px; border-radius:5px;
+width:1000px ; height:450px;
+margin: 10px 10px 10px 10px;}
+.rouge{min-height:200px;float: left; margin:10px;padding :10px; text-align:center; }
+.vert{min-height:200px;float: right; margin:10px;padding :10px; text-align:center; }
+.blue{min-height:200px;float: center; margin:10px;padding :10px; text-align:center; }
+
+
+
+
+
+
+
+
+
+
